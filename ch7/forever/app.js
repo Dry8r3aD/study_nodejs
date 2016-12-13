@@ -8,6 +8,9 @@ require('http').createServer( function( request, response) {
 		response.write('</head>');
 		response.write('<body>');
 		response.write('	<h1> forever </h1> ');
+		response.write('	<h1> forever </h1> ');
+		response.write('	<h1> forever </h1> ');
+		response.write('	<h1> forever </h1> ');
 		response.write('</body>');
 		response.write('<html>');
 		response.end();
